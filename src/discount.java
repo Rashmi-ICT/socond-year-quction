@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MainClass {
+public class discount {
     public static void main(String[] args) {
         System.out.println(" \t\t ~~ASB FASHION~~");
         System.out.println("--------------------------------\n");
