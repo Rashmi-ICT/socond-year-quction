@@ -43,8 +43,8 @@ public class Assignment01 {
                 }
             }
             //searching the runner up
-            for(Map.Entry<String, Integer> en : m.entrySet()){
-                if (en != min1 && (min2 == null || (en.getValue().compareTo(min2.getValue()) <0))) {
+            for(Map.Entry<String, Integer> en : m.entrySet()) {
+                if (en != min1 && (min2 == null || (en.getValue().compareTo(min2.getValue()) < 0))) {
                     min2 = en;
                 }
             }
