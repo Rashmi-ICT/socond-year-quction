@@ -3,12 +3,9 @@ import java.util.Map;
 
 public class Assignment01 {
 
-
-
-
         public static void main(String[] args) {
 
-
+            System.out.print("------------------------------------------------------------------------");
             System.out.println("\nFaculty of Humanities and Social Sciences ran a marathon");
             System.out.println("------------------------------------------------------------------------");
 
@@ -41,8 +38,7 @@ public class Assignment01 {
                 if (min1 == null || entry.getValue().compareTo(min1.getValue()) < 0){
                     min1 = entry;
 
-                    System.out.println(entry);
-                    System.out.println(min1);
+
                 }
             }
             //searching the runner up
@@ -50,11 +46,10 @@ public class Assignment01 {
                 if (entry!= min1 && (min2 == null || (entry.getValue().compareTo(min2.getValue()) < 0))) {
                     min2 =entry;
 
-                    //System.out.println(entry);
                 }
             }
             System.out.println("\n\nWINNER OF THE MARATHON");
-            System.out.println("-----------------------------");
+            System.out.print("-----------------------------");
             System.out.println("\n" + min1.getKey()+"  is Won "+min1.getValue()+" Minutes");
 
             System.out.println("\n\nFIRST RUNNERUP OF THE MARATHON");
